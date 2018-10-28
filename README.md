@@ -11,3 +11,7 @@ rm cifar-10-binary.tar.gz
     In Tensorflow, there are lots of bugs to be considered. Therefore the code I provide may use some codes in Keras source code especially in data augmentation part. But those parts just contain some math tricks and are easy to understand.  
     It is important to mention that the test accuracy in TensorFlow version is a little bit lower than Keras version, so there may be some little mistakes. I'm very glad if someone can point them out.  
     I also provide VGG16 network as a baseline for ResNet.  
+    
+#References
+        You can check the Paper "Deep Residual Learning for Image Recognition" (https://arxiv.org/abs/1512.03385) for more details.
+
